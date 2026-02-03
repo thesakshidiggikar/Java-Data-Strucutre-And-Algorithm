@@ -1,0 +1,15 @@
+Problem:
+Find longest subarray with at most 2 distinct elements.
+
+Window Type:
+Variable window
+
+Brute Force Idea:
+Try all subarrays.
+
+Optimized Sliding Window Idea:
+- HashMap to store counts
+- Shrink window when > 2 types
+
+Time Complexity: O(n)
+Space Complexity: O(1)

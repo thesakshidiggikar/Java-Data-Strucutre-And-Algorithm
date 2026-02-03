@@ -1,0 +1,15 @@
+Problem:
+Search a target value in a sorted 2D matrix.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Search each row.
+
+Optimized Binary Search Idea:
+- Treat matrix as 1D array
+- Apply binary search
+
+Time Complexity: O(log n)
+Space Complexity: O(1)

@@ -1,0 +1,14 @@
+Problem:
+Design a stack that supports retrieving minimum element.
+
+Pattern:
+Stack
+
+Brute Force Idea:
+Scan stack to find minimum.
+
+Optimized Stack Idea:
+- Maintain an auxiliary min stack
+
+Time Complexity: O(1)
+Space Complexity: O(n)

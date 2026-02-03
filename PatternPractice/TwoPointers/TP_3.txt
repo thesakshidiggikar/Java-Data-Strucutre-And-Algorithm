@@ -1,0 +1,15 @@
+Problem:
+Check if a string is a valid palindrome considering only alphanumeric characters.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Clean string and reverse.
+
+Optimized Two Pointers Idea:
+- Skip non-alphanumeric
+- Compare left and right
+
+Time Complexity: O(n)
+Space Complexity: O(1)

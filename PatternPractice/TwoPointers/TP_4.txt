@@ -1,0 +1,15 @@
+Problem:
+Find two lines that hold the most water.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Check all pairs of lines.
+
+Optimized Two Pointers Idea:
+- Start with widest container
+- Move the smaller height pointer
+
+Time Complexity: O(n)
+Space Complexity: O(1)

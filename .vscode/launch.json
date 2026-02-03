@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "stacksBasic$Stack",
+            "request": "launch",
+            "mainClass": "stacksBasic$Stack",
+            "projectName": "Coding_c038361f"
+        },
+        {
+            "type": "java",
+            "name": "Circumfrence",
+            "request": "launch",
+            "mainClass": "PracticeTest.Circumfrence",
+            "projectName": "Coding_c038361f"
+        },
+        {
+            "name": "Run MyFirstCode (Terminal)",
+            "type": "pwa-terminal",
+            "request": "launch",
+            "command": "java MyFirstCode",
+            "cwd": "${workspaceFolder}/Basic_of_Java",
+            "preLaunchTask": "Compile MyFirstCode",
+            "console": "integratedTerminal"
+        }
+    ]
+}

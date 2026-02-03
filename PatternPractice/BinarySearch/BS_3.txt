@@ -1,0 +1,15 @@
+Problem:
+Search target in rotated sorted array.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Linear scan.
+
+Optimized Binary Search Idea:
+- Identify sorted half
+- Decide which side to search
+
+Time Complexity: O(log n)
+Space Complexity: O(1)

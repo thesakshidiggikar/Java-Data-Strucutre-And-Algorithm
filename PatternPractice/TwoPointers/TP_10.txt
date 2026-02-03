@@ -1,0 +1,15 @@
+Problem:
+Return an array of squares of each number sorted in non-decreasing order.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Square all elements and sort.
+
+Optimized Two Pointers Idea:
+- Compare absolute values from both ends
+- Fill result from end
+
+Time Complexity: O(n)
+Space Complexity: O(n)

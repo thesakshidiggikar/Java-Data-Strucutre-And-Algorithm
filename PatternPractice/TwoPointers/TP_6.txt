@@ -1,0 +1,20 @@
+Problem:
+Remove duplicates from a sorted array in-place and return the new length.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Create a new array with unique elements.
+
+Optimized Two Pointers Idea:
+- One pointer for unique position
+- Another pointer to traverse array
+- Overwrite duplicates
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Edge Cases:
+- All elements same
+- Empty array

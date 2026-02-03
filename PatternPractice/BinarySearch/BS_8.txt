@@ -1,0 +1,15 @@
+Problem:
+Split array into k subarrays such that the largest sum is minimized.
+
+Pattern:
+Binary Search on Answer
+
+Brute Force Idea:
+Try all partitions.
+
+Optimized Binary Search Idea:
+- Binary search on maximum sum
+- Validate partitions
+
+Time Complexity: O(n log n)
+Space Complexity: O(1)

@@ -1,0 +1,15 @@
+Problem:
+Remove k digits from number to make it smallest.
+
+Pattern:
+Stack (Greedy)
+
+Brute Force Idea:
+Try all combinations.
+
+Optimized Stack Idea:
+- Remove digits when top > current
+- Keep stack increasing
+
+Time Complexity: O(n)
+Space Complexity: O(n)

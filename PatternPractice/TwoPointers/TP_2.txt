@@ -1,0 +1,15 @@
+Problem:
+Reverse the given character array in-place.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Create a new reversed array.
+
+Optimized Two Pointers Idea:
+- Left pointer at start, right at end
+- Swap and move inward
+
+Time Complexity: O(n)
+Space Complexity: O(1)

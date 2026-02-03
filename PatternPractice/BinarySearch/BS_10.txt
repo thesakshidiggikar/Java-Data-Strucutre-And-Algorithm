@@ -1,0 +1,15 @@
+Problem:
+Find the median of two sorted arrays.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Merge arrays and find median.
+
+Optimized Binary Search Idea:
+- Binary search on smaller array
+- Partition arrays correctly
+
+Time Complexity: O(log(min(n,m)))
+Space Complexity: O(1)

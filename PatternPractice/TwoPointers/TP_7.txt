@@ -1,0 +1,19 @@
+Problem:
+Given an elevation map, compute how much water it can trap after raining.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+For each bar, find max left and right height.
+
+Optimized Two Pointers Idea:
+- Use left and right pointers
+- Maintain leftMax and rightMax
+- Move smaller height pointer
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Edge Cases:
+- Less than 3 bars

@@ -1,0 +1,15 @@
+Problem:
+Calculate stock span for each day.
+
+Pattern:
+Stack
+
+Brute Force Idea:
+Check previous days one by one.
+
+Optimized Stack Idea:
+- Maintain stack of prices
+- Pop smaller elements
+
+Time Complexity: O(n)
+Space Complexity: O(n)

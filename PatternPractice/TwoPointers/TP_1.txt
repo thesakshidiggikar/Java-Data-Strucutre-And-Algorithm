@@ -1,0 +1,19 @@
+Problem:
+Given a sorted array, find two numbers such that they add up to a specific target.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Try all pairs and check sum.
+
+Optimized Two Pointers Idea:
+- One pointer at start, one at end
+- If sum < target → move left
+- If sum > target → move right
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Edge Cases:
+- No valid pair

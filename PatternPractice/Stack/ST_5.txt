@@ -1,0 +1,15 @@
+Problem:
+Given daily temperatures, find how many days until a warmer temperature.
+
+Pattern:
+Monotonic Stack
+
+Brute Force Idea:
+For each day, check future days.
+
+Optimized Stack Idea:
+- Maintain decreasing stack of indices
+- Pop when warmer day found
+
+Time Complexity: O(n)
+Space Complexity: O(n)

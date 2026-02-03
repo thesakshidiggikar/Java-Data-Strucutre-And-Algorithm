@@ -1,0 +1,15 @@
+Problem:
+Find a target element in a sorted array.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Linear search.
+
+Optimized Binary Search Idea:
+- Divide array into halves
+- Compare mid with target
+
+Time Complexity: O(log n)
+Space Complexity: O(1)

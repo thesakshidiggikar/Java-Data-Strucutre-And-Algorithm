@@ -1,0 +1,19 @@
+Problem:
+Find all start indices of anagrams of p in s.
+
+Window Type:
+Fixed window
+
+Brute Force Idea:
+Check all substrings and sort/compare.
+
+Optimized Sliding Window Idea:
+- Frequency array
+- Slide window of size p
+- Match frequencies
+
+Time Complexity: O(n)
+Space Complexity: O(26)
+
+Edge Cases:
+- no anagrams

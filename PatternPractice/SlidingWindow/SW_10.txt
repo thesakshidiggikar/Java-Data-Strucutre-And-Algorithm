@@ -1,0 +1,16 @@
+Problem:
+Find longest subarray of 1s after deleting one element.
+
+Window Type:
+Variable window
+
+Brute Force Idea:
+Try all subarrays.
+
+Optimized Sliding Window Idea:
+- Count zeros
+- Allow only one zero
+- Shrink when > 1 zero
+
+Time Complexity: O(n)
+Space Complexity: O(1)

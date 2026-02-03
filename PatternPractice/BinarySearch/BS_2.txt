@@ -1,0 +1,15 @@
+Problem:
+Find first and last position of target in sorted array.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Scan entire array.
+
+Optimized Binary Search Idea:
+- Use binary search twice
+- One for left boundary, one for right
+
+Time Complexity: O(log n)
+Space Complexity: O(1)

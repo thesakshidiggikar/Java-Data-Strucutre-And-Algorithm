@@ -1,0 +1,15 @@
+Problem:
+Check if parentheses string is valid.
+
+Pattern:
+Stack
+
+Brute Force Idea:
+Repeatedly remove valid pairs.
+
+Optimized Stack Idea:
+- Push opening brackets
+- Pop when closing bracket matches
+
+Time Complexity: O(n)
+Space Complexity: O(n)

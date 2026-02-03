@@ -1,0 +1,15 @@
+Problem:
+Decode the given encoded string.
+
+Pattern:
+Stack
+
+Brute Force Idea:
+Simulate decoding repeatedly.
+
+Optimized Stack Idea:
+- Use stack for numbers and strings
+- Decode when ']' appears
+
+Time Complexity: O(n)
+Space Complexity: O(n)

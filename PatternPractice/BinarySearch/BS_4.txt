@@ -1,0 +1,15 @@
+Problem:
+Find the minimum element in a rotated sorted array.
+
+Pattern:
+Binary Search
+
+Brute Force Idea:
+Scan entire array.
+
+Optimized Binary Search Idea:
+- Compare mid with right
+- Decide sorted half
+
+Time Complexity: O(log n)
+Space Complexity: O(1)

@@ -1,0 +1,15 @@
+Problem:
+Move all zeroes to the end while maintaining relative order.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Create a new array and append zeros later.
+
+Optimized Two Pointers Idea:
+- One pointer tracks non-zero position
+- Swap non-zero elements forward
+
+Time Complexity: O(n)
+Space Complexity: O(1)

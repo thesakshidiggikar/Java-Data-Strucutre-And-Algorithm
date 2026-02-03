@@ -1,0 +1,15 @@
+Problem:
+Find all unique triplets in array that sum to zero.
+
+Pattern:
+Two Pointers + Sorting
+
+Brute Force Idea:
+Try all triplets.
+
+Optimized Two Pointers Idea:
+- Sort array
+- Fix one element, use two pointers
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)

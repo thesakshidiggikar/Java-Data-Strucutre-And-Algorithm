@@ -1,0 +1,64 @@
+Find the maximum element in an array
+Find the minimum element in an array
+Reverse an array (in-place)
+Check if an array is sorted or not
+Find the second largest element
+Linear Search
+
+Binary Search in a sorted array
+
+Remove duplicates from a sorted array (in-place)
+
+Move all zeros to the end (maintain order)
+
+Merge two sorted arrays into one sorted array
+
+Two Sum (array is sorted)
+
+Find maximum sum subarray of size K
+
+Find minimum sum subarray of size K
+
+Find first negative number in every window of size K
+
+Count number of subarrays with sum = K
+
+Find a subarray with sum = K
+
+Find the equilibrium index of an array
+
+Find the pivot index
+
+Answer range sum queries efficiently
+
+Maximum subarray sum (Kadane’s Algorithm)
+
+Maximum product subarray
+
+Find the majority element (> n/2)
+
+Find all majority elements (> n/3)
+
+Best time to buy and sell stock (one transaction)
+
+Product of array except self
+
+Find the missing number (1 to N)
+
+Find the duplicate number
+
+Sort an array of 0s, 1s and 2s
+
+Rotate array by K steps
+
+Trapping Rain Water
+
+Container With Most Water
+
+Find the longest consecutive sequence
+
+Check if a subarray with zero sum exists
+
+Find the intersection of two arrays
+
+Find the next permutation of an array

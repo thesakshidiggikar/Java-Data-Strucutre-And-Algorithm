@@ -1,0 +1,29 @@
+Problem:
+Given an array of integers and an integer K, find the maximum sum of any contiguous subarray of size K.
+
+Intuition:
+We want the best window of size K. Brute force checks all windows.
+Optimized approach slides the window by removing left element and adding right.
+
+Brute Force Approach:
+Check every subarray of size K and compute sum.
+
+Time Complexity: O(n * k)
+Space Complexity: O(1)
+
+Optimized Approach (Sliding Window):
+- Calculate sum of first K elements
+- Slide window by subtracting element going out and adding new element
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Dry Run:
+Array = [2,1,5,1,3,2], K = 3
+Window [2,1,5] → sum = 8
+Slide → [1,5,1] → sum = 7
+Slide → [5,1,3] → sum = 9 (max)
+
+Edge Cases:
+- K > array length
+- Array with negative numbers

@@ -1,0 +1,15 @@
+Problem:
+Find next greater element in a circular array.
+
+Pattern:
+Monotonic Stack
+
+Brute Force Idea:
+Check next elements circularly.
+
+Optimized Stack Idea:
+- Traverse array twice
+- Maintain decreasing stack
+
+Time Complexity: O(n)
+Space Complexity: O(n)

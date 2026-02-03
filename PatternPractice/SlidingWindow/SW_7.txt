@@ -1,0 +1,19 @@
+Problem:
+Find longest subarray with at most k zeros.
+
+Window Type:
+Variable window
+
+Brute Force Idea:
+Try all subarrays.
+
+Optimized Sliding Window Idea:
+- Count zeros
+- Expand window
+- Shrink when zero count > k
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Edge Cases:
+- k = 0

@@ -1,0 +1,19 @@
+Problem:
+Check if s2 contains a permutation of s1.
+
+Window Type:
+Fixed window (size = len(s1))
+
+Brute Force Idea:
+Check all substrings of size len(s1) and compare frequency.
+
+Optimized Sliding Window Idea:
+- Frequency array of s1
+- Slide fixed window on s2
+- Compare counts
+
+Time Complexity: O(n)
+Space Complexity: O(26)
+
+Edge Cases:
+- s1 longer than s2

@@ -1,0 +1,23 @@
+Problem:
+Find the length of the longest substring without repeating characters.
+
+Window Type:
+Variable window
+
+Brute Force Idea:
+Generate all substrings and check uniqueness using a set.
+
+Optimized Sliding Window Idea:
+- Use two pointers (left, right)
+- Use a HashSet to track characters
+- Expand right, shrink left when duplicate found
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Dry Run:
+s = "abcabcbb"
+
+Edge Cases:
+- empty string
+- all same characters

@@ -1,0 +1,18 @@
+Problem:
+Find the minimum eating speed so all bananas are eaten within h hours.
+
+Pattern:
+Binary Search on Answer
+
+Brute Force Idea:
+Try all possible speeds.
+
+Optimized Binary Search Idea:
+- Search speed range
+- Check if speed is valid
+
+Time Complexity: O(n log n)
+Space Complexity: O(1)
+
+Edge Cases:
+- One pile only

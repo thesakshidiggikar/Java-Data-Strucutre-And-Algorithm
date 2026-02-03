@@ -1,0 +1,15 @@
+Problem:
+Check whether string s is a subsequence of string t.
+
+Pattern:
+Two Pointers
+
+Brute Force Idea:
+Try all subsequences of t.
+
+Optimized Two Pointers Idea:
+- Traverse both strings
+- Move pointer in t until match found
+
+Time Complexity: O(n)
+Space Complexity: O(1)

@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile MyFirstCode",
+            "type": "shell",
+            "command": "javac MyFirstCode.java",
+            "options": {
+                "cwd": "${workspaceFolder}/Basic_of_Java"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run MyFirstCode",
+            "type": "shell",
+            "command": "java MyFirstCode",
+            "options": {
+                "cwd": "${workspaceFolder}/Basic_of_Java"
+            },
+            "dependsOn": "Compile MyFirstCode",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Maven: Clean & Install",
+            "type": "shell",
+            "command": "mvn clean install",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Gradle: build",
+            "type": "shell",
+            "command": "gradle build",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+Problem:
+Find next greater element.
+
+Pattern:
+Monotonic Stack
+
+Brute Force Idea:
+For each element, check right side.
+
+Optimized Stack Idea:
+- Maintain decreasing stack
+- Pop until greater found
+
+Time Complexity: O(n)
+Space Complexity: O(n)

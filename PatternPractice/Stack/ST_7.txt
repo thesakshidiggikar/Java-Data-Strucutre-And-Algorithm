@@ -1,0 +1,15 @@
+Problem:
+Find largest rectangle area in a histogram.
+
+Pattern:
+Monotonic Stack
+
+Brute Force Idea:
+Consider every bar as minimum.
+
+Optimized Stack Idea:
+- Maintain increasing stack
+- Calculate area on pop
+
+Time Complexity: O(n)
+Space Complexity: O(n)

@@ -1,0 +1,15 @@
+Problem:
+Evaluate expression in Reverse Polish Notation.
+
+Pattern:
+Stack
+
+Brute Force Idea:
+Convert to infix then evaluate.
+
+Optimized Stack Idea:
+- Push operands
+- Pop two operands on operator
+
+Time Complexity: O(n)
+Space Complexity: O(n)

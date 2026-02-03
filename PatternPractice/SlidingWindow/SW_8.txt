@@ -1,0 +1,18 @@
+Problem:
+Count subarrays where product < k.
+
+Window Type:
+Variable window
+
+Brute Force Idea:
+Try all subarrays and compute product.
+
+Optimized Sliding Window Idea:
+- Multiply right
+- Divide left when product >= k
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Edge Cases:
+- k <= 1
