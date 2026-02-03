@@ -1,12 +1,12 @@
-# 🚀 Java Data Structures & Algorithms
+#  Java Data Structures & Algorithms
 
 Welcome to my **Java Data Structures & Algorithms** repository! This project serves as a comprehensive collection of my journey learning and mastering Java, from the fundamental building blocks to complex algorithmic patterns.
 
-## 📌 Project Overview
+## Project Overview
 
 This repository is structured to document a progressive learning path. It starts with basic Java syntax and logic, moves into core Data Structures, and advances to specialized problem-solving patterns used in competitive programming and technical interviews.
 
-## 📂 Directory Structure
+##  Directory Structure
 
 ### 1. [Basic_of_Java](./Basic_of_Java)
 Foundational Java concepts and initial coding exercises.
@@ -42,12 +42,12 @@ Focused practice on identifying and applying specific algorithmic patterns. This
 - **[Practice1](./Practice1)**: General practice problems including voting logic and circumference calculations.
 - **[Round0](./Round0)**: Initial rounds of coding questions and basic problem-solving (e.g., Two Sum, Max Subarray).
 
-## 💡 Why This Repository?
+##  Why This Repository?
 - **Structured Learning**: logical progression from basics to advanced topics.
 - **Clean Code**: Focus on readable and maintainable Java implementation.
 - **Interview Prep**: Covers high-frequency topics found in technical interviews (FAANG + others).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language**: Java
 - **Tools**: VS Code
 
